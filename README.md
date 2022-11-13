@@ -60,7 +60,7 @@ Remove `.sample` extension from configuration files located in `/config/env/`
 #### Create a new task
 request url `API_HOST/task`
 
-request method `POST`
+request method `POST`. new Date().toISOString().slice(0,10)
 
 request body 
 `{`
